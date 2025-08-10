@@ -1,0 +1,3 @@
+->The mapped memory depends not only on how much memory is allocated but also on how frequently it is accessed.
+->If the stride is large, fewer pages are touched, leading to a smaller mapped physical memory.
+->If the stride is small, almost all allocated pages are touched, leading to a larger mapped physical memory.
